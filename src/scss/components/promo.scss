@@ -1,0 +1,136 @@
+.promo__section {
+  padding-bottom: 220px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 80px;
+  }
+}
+.promo__wrapper {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
+.promo__block {
+  margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    flex: 50%;
+  }
+}
+.promo__title {
+  margin-bottom: 20px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 23px;
+
+  /* Text / Title */
+
+  color: #111563;
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+.promo__text {
+  margin-bottom: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  /* Text / paragraph */
+
+  color: #63718e;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+}
+.promo__button {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  color: #ffffff;
+
+  padding: 16px 33px;
+  border: 0;
+  background-color: #c774ee;
+  border-radius: 10px;
+}
+.promo__notice {
+  position: relative;
+  @media screen and (min-width: 768px) {
+    max-width: 75%;
+    left: -10%;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 50%;
+    flex: 50%;
+  }
+}
+.notice__block {
+  position: absolute;
+  top: 170px;
+  padding: 30px 20px 30px 25px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+  border-radius: 8px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 380px;
+    top: 25%;
+    right: -50%;
+  }
+  @media screen and (min-width: 1200px) {
+    top: 60%;
+    right: -15%;
+  }
+}
+.notice__svg {
+  display: flex;
+  align-items: center;
+}
+.modif {
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 18px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #fee5ff;
+}
+.fa-square-pen {
+  font-size: 24px;
+  color: #c774ee;
+}
+
+.notice__title {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+
+  /* Text / Title */
+
+  color: #111563;
+}
+.notice__text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  /* Text / paragraph */
+
+  color: #63718e;
+}

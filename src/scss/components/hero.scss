@@ -1,0 +1,68 @@
+.hero__section {
+  padding-top: 50px;
+  padding-bottom: 45px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 75px;
+  }
+}
+
+.hero {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
+}
+.hero__block {
+  margin-bottom: 40px;
+  @media screen and (min-width: 1200px) {
+    width: 50%;
+  }
+}
+.hero__title {
+  margin-bottom: 20px;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 23px;
+
+  color: #111563;
+  @media screen and (min-width: 768px) {
+    font-size: 42px;
+    line-height: 120%;
+  }
+}
+.hero__text {
+  margin-bottom: 30px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #63718e;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+}
+.hero__button {
+  width: 100%;
+  padding: 18px 22px;
+  background-color: #c774ee;
+  border: 0;
+  border-radius: 10px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #fff;
+  @media screen and (min-width: 768px) {
+    width: 290px;
+  }
+}
+.hero__block {
+}
+.img__block {
+}

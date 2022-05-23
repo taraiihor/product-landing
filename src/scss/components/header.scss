@@ -1,0 +1,128 @@
+.header__section {
+  padding: 12px 0;
+  background-color: #fff;
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+}
+.header__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  & span {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #c774ee;
+  }
+  & a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 46px;
+    color: #423d59;
+  }
+}
+.menu__burger {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: 10px 3px;
+  position: relative;
+  width: 36px;
+  height: 36px;
+  & span {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #63718e;
+  }
+  & span:nth-of-type(2) {
+    position: absolute;
+    top: calc(50% - 6px);
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #63718e;
+  }
+  & span:nth-of-type(3) {
+    position: absolute;
+    top: calc(50% + 6px);
+    width: 30px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #63718e;
+  }
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}
+.button__list {
+  display: flex;
+  margin-right: 30px;
+}
+.button__item {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  color: #63718e;
+}
+.nav__list {
+  display: flex;
+  margin-right: 30px;
+}
+.nav__item {
+  margin-right: 15px;
+  &:last-child {
+    margin-right: 0;
+  }
+  & a {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #63718e;
+  }
+}
+.nav__button-list {
+  display: flex;
+}
+.nav__button-item {
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+  & button {
+    padding: 6px 20px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+
+    border-radius: 10px;
+    border: 2px solid #63718e;
+
+    color: #63718e;
+  }
+  & button:hover {
+    background-color: #c774ee;
+    color: #fff;
+    border: 2px solid #c774ee;
+  }
+}

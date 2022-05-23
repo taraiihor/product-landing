@@ -1,0 +1,132 @@
+.reviews__block {
+  padding-bottom: 60px;
+}
+.reviews__title {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 23px;
+  /* identical to box height */
+
+  /* Text / Title */
+
+  color: #111563;
+
+  margin-bottom: 15px;
+}
+.reviews__subtitle {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  /* Text / paragraph */
+
+  color: #63718e;
+
+  margin-bottom: 50px;
+}
+.slider {
+}
+.reviews__list {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+.reviews__item {
+  max-width: 300px;
+  padding: 40px 20px;
+  background: #ffffff;
+  /* shw-1 */
+
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+  border-radius: 8px;
+}
+.reviews__ratings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.fa-quote-left {
+  font-size: 46px;
+  color: #e8f8ff;
+}
+.rating__number {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+
+  /* Text / paragraph */
+
+  color: #63718e;
+}
+.reviews__text {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  /* or 22px */
+
+  /* Text / paragraph */
+
+  color: #63718e;
+
+  margin-bottom: 70px;
+}
+.reviews__users {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fa-circle-user {
+  font-size: 24px;
+  color: #e8f8ff;
+  margin-right: 10px;
+}
+
+.user {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  /* Text / paragraph */
+
+  color: #63718e;
+}
+.reviews__category {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+  /* Text / paragraph */
+
+  color: #63718e;
+}
+.slider__button {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+
+  /* primary / accent */
+
+  color: #c774ee;
+
+  border: 0;
+  background-color: transparent;
+}
