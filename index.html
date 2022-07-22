@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> -->
+    <title>Product</title>
+  </head>
+  <body>
+    
+    <!-- header -->
+    <header class="header__section">
+  <div class="container header__block">
+    <div class="logo">
+      <a href="#Hero">pr<span></span>duct.</a>
+    </div>
+    <div class="menu__burger"><span></span><span></span><span></span></div>
+    <div class="navigation menu__list">
+      <!-- <ul class="button__list">
+        <li>
+          <a class="button__item">
+            <img src="img/search-alt.svg" alt="" />
+          </a>
+        </li>
+        <li>
+          <a class="button__item">
+            <img src="img/mobile-vibration.svg" alt="" />Call us
+          </a>
+        </li>
+      </ul> -->
+      <nav class="">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#About">About</a></li>
+          <li class="nav__item"><a href="#Product">Product</a></li>
+          <li class="nav__item"><a href="#Faq">FAQ</a></li>
+          <li class="nav__item"><a href="#Fotter">Contact</a></li>
+        </ul>
+      </nav>
+      <ul class="nav__button-list">
+        <li class="nav__button-item"><button>Download</button></li>
+        <li class="nav__button-item"><button>Sign up</button></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <!-- Hero section -->
+      <section class="hero__section" id="Hero">
+  <div class="container hero">
+    <div class="hero__block">
+      <h2 class="hero__title">
+        At vero eos et accusamus et iusto odio dignissimos ducimus
+      </h2>
+      <p class="hero__text">
+        Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil
+        impedit, quo minus id, quod maxime placeat, facere possimus, omnis
+        voluptas assumenda est, omnis dolor repellendus. Temporibus autem
+        quibusdam et aut officiis debitis aut rerum necessitatibus saepe
+        eveniet, ut et voluptates repudiandae sint et molestiae non recusandae.
+      </p>
+      <button class="hero__button">Try for free</button>
+    </div>
+    <div class="img__block">
+      <img src="img/iMac.png" alt="" />
+    </div>
+  </div>
+</section>
+
+      <!-- Promo section -->
+      <section class="promo__section" id="About">
+  <div class="container promo__wrapper">
+    <div class="promo__block">
+      <h2 class="promo__title">
+        Temporibus autem quibusdam et aut officiis debitis
+      </h2>
+      <p class="promo__text">
+        At vero eos et accusamus et iusto odio dignissimos ducimus, qui
+        blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores
+        et quas molestias excepturi sint, obcaecati cupiditate non provident,
+        similique sunt in culpa, qui officia deserunt mollitia animi, id est
+        laborum et dolorum fuga.
+      </p>
+      <button class="promo__button">Try for free</button>
+    </div>
+    <div class="promo__notice">
+      <img src="img/watch.png" alt="" />
+      <div class="notice__block">
+        <div class="notice__svg">
+          <i class="modif fa-solid fa-square-pen"></i>
+          <h3 class="notice__title">Notice</h3>
+        </div>
+        <p class="notice__text">
+          Nam libero tempore, cum soluta nobis est eligendi optio, cumque nihil
+          impedit, quo minus id, quod maxime placeat, facere possimus, omnis
+          voluptas assumenda est.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- Product section -->
+      <section class="calc__section">
+  <div class="container">
+    <h2 class="calc__title">Calculator</h2>
+    <p class="calc__text">
+      Nam libero tempore, cum soluta nobis est eligendi optio
+    </p>
+    <form class="calc__form" action="">
+      <select class="calc__select" name="colors" id="colors" required>
+        <option value="1">Colors</option>
+        <option value="1.1">red</option>
+        <option value="1.2">green</option>
+        <option value="1.3">blue</option>
+        <option value="1.4">orange</option>
+      </select>
+      <select class="calc__select" name="size" id="size">
+        <option value="1">Size</option>
+        <option value="1.1">100%</option>
+        <option value="1.2">200%</option>
+        <option value="1.3">300%</option>
+      </select>
+      <!-- <label class="calc__select" for="" -->
+        <!-- <button type="button" data-action="decrement">-</button> -->
+        <input class="calc__select" type="number" value="1" min="1" max="100" id="value"></input>
+        <!-- <button type="button" data-action="increment">+</button></input> -->
+             
+      <input
+        class="calc__select"
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2022-07-22"
+        min="2000-01-01"
+        max="2023-12-31"
+      />
+      <select class="calc__select" name="city" id="city">
+        <option value="1">City</option>
+        <option value="1.1">Kyiv</option>
+        <option value="1.2">Rivne</option>
+        <option value="1.3">Odessa</option>
+        <option value="1.4">Lviv</option>
+      </select>
+      <select class="calc__select" name="delivery" id="delivery">
+        <option value="1">Delivery</option>
+        <option value="1.1">New Post</option>
+        <option value="1.2">Ukrposhta</option>
+        <option value="1.3">Picup</option>
+      </select>
+      <label class="calc__value" for="" id="total-ptice">56.25 </label>
+      <button class="calc__btn">Proceed</button>
+    </form>
+  </div>
+</section>
+
+
+      <!-- Reviews -->
+      <div class="reviews__block">
+  <div class="container">
+    <h2 class="reviews__title">Reviews</h2>
+    <h3 class="reviews__subtitle">Nam libero tempore, cum soluta nobis est</h3>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="reviews__item">
+            <div class="reviews__ratings">
+              <i class="fa-solid fa-quote-left"></i>
+              <div>
+                <p class="rating__number">5.0</p>
+                <div></div>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam.
+            </p>
+            <div class="reviews__users">
+              <i class="fa-solid fa-circle-user"></i>
+              <p class="user">ID: 21015</p>
+            </div>
+            <p class="reviews__category">Category|Subcategory</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="reviews__item">
+            <div class="reviews__ratings">
+              <i class="fa-solid fa-quote-left"></i>
+              <div>
+                <p class="rating__number">5.0</p>
+                <div></div>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam.
+            </p>
+            <div class="reviews__users">
+              <i class="fa-solid fa-circle-user"></i>
+              <p class="user">ID: 21015</p>
+            </div>
+            <p class="reviews__category">Category|Subcategory</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="reviews__item">
+            <div class="reviews__ratings">
+              <i class="fa-solid fa-quote-left"></i>
+              <div>
+                <p class="rating__number">5.0</p>
+                <div></div>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam.
+            </p>
+            <div class="reviews__users">
+              <i class="fa-solid fa-circle-user"></i>
+              <p class="user">ID: 21015</p>
+            </div>
+            <p class="reviews__category">Category|Subcategory</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="reviews__item">
+            <div class="reviews__ratings">
+              <i class="fa-solid fa-quote-left"></i>
+              <div>
+                <p class="rating__number">5.0</p>
+                <div></div>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam.
+            </p>
+            <div class="reviews__users">
+              <i class="fa-solid fa-circle-user"></i>
+              <p class="user">ID: 21015</p>
+            </div>
+            <p class="reviews__category">Category|Subcategory</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="reviews__item">
+            <div class="reviews__ratings">
+              <i class="fa-solid fa-quote-left"></i>
+              <div>
+                <p class="rating__number">5.0</p>
+                <div></div>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam.
+            </p>
+            <div class="reviews__users">
+              <i class="fa-solid fa-circle-user"></i>
+              <p class="user">ID: 21015</p>
+            </div>
+            <p class="reviews__category">Category|Subcategory</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="reviews__item">
+            <div class="reviews__ratings">
+              <i class="fa-solid fa-quote-left"></i>
+              <div>
+                <p class="rating__number">5.0</p>
+                <div></div>
+              </div>
+            </div>
+            <p class="reviews__text">
+              Nam libero tempore, cum soluta nobis est eligendi optio, cumque
+              nihil impedit, quo minus id, quod maxime placeat, facere possimus,
+              omnis voluptas assumenda est, omnis dolor repellendus. Temporibus
+              autem quibusdam.
+            </p>
+            <div class="reviews__users">
+              <i class="fa-solid fa-circle-user"></i>
+              <p class="user">ID: 21015</p>
+            </div>
+            <p class="reviews__category">Category|Subcategory</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="slider__button swiper-button">Read more</button>
+
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+  </div>
+</div>
+
+
+      <!-- context -->
+      <section class="product__section" id="Product">
+  <div class="container">
+    <div class="content__block">
+      <div class="content__paragraph">
+        <h2 class="paragraph__title">
+          Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut
+          fugit
+        </h2>
+        <p class="paragraph__text">
+          Entscheidest Du Dich dazu, uns mit dem Schreiben Deiner Facharbeit zu
+          beauftragen (beispielsweise, da Du den Abgabetermin sonst nicht
+          einhalten kannst), profitierst Du von vielen Vorteilen (s.u.). Unsere
+          Autoren arbeiten höchst professionell und erstellen Deine
+          wissenschaftliche Arbeit in drei Phasen:
+        </p>
+      </div>
+      <div class="paragraph__img">
+        <img src="img/specialist-image.png" alt="" />
+      </div>
+    </div>
+    <div class="content__items">
+      <ul class="content__menu">
+        <li class="menu__list">
+          <a class="active" href="">Temporibus autem</a>
+        </li>
+        <li class="menu__list"><a href="">Nam libero</a></li>
+        <li class="menu__list"><a href="">Et harum</a></li>
+      </ul>
+      <p class="menu__text">
+        At vero eos et accusamus et iusto odio dignissimos ducimus, qui
+        blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores
+        et quas molestias excepturi sint, obcaecati cupiditate non provident,
+        similique sunt in culpa,
+      </p>
+    </div>
+  </div>
+</section>
+ <section>
+  <div class="container">
+    <div class="products__content">
+      <div class="products__img">
+        <img src="img//advantage-image.png" alt="" />
+      </div>
+      <div class="products__wrapp">
+        <h2 class="products__title">At vero eos et accusamus</h2>
+        <ul class="products__list">
+          <li class="products__item">
+            <p class="products__text">
+              Sed ut perspiciatis, unde omnis iste natus error.
+            </p>
+          </li>
+          <li class="products__item">
+            <p class="products__text">
+              Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos, qui ratione
+              voluptatem sequi nesciunt.
+            </p>
+          </li>
+          <li class="products__item">
+            <p class="products__text">
+              Dsed quia non numquam eius modi tempora inci[di]dunt, ut labore et
+              dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+              veniam.
+            </p>
+          </li>
+          <li class="products__item">
+            <p class="products__text">Quam nihil molestiae consequatur.</p>
+          </li>
+          <li class="products__item">
+            <p class="products__text">
+              At vero eos et accusamus et iusto odio dignissimos ducimus.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="">
+  <div class="container">
+    <div class="responsibilities__wrapp">
+      <div class="responsibilities__img">
+        <img src="img/content.png" alt="" />
+      </div>
+      <div class="responsibilities__block">
+        <h2 class="responsibilities__title">
+          Temporibus autem quibusdam et aut officiis debitis
+        </h2>
+        <p class="responsibilities__text">
+          At vero eos et accusamus et iusto odio dignissimos ducimus, qui
+          blanditiis praesentium voluptatum deleniti atque corrupti, quos
+          dolores et quas molestias excepturi sint, obcaecati cupiditate non
+          provident, similique sunt in culpa, qui officia deserunt mollitia
+          animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis
+          est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+          eligendi optio, cumque nihil impedit, quo minus id, quod maxime
+          placeat, facere possimus, omnis voluptas assumenda est.
+        </p>
+      </div>
+    </div>
+    <div>
+      <div class="paragraf__block">
+        <div class="card__bg">
+          <div class="card__img">
+            <img src="img/bg.png" alt="" />
+          </div>
+          <div class="card__responsibilities">
+            <div class="title__wrap">
+              <i class="modif fa-solid fa-square-pen"></i>
+              <h3 class="card__title">Notice:</h3>
+            </div>
+            <p class="cadr__text">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+          </div>
+        </div>
+        <p class="text__section">
+          Et harum quidem rerum facilis est et expedita distinctio. Nam libero
+          tempore, cum soluta nobis est eligendi optio, cumque nihil impedit,
+          quo minus id, quod maxime placeat, facere possimus, omnis voluptas
+          assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et
+          aut officiis debitis aut rerum necessitatibus saepe eveniet, ut et
+          voluptates repudiandae sint et molestiae non recusandae. Itaque earum
+          rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      <!-- Faq section -->
+      <section class="faq__section" id="Faq">
+  <div class="container">
+    <h2 class="faq__title">FAQ</h2>
+
+    <ul class="faq__list">
+      <li class="faq__item">
+        <div class="item__hat">
+          <h3 class="hat__title">At vero eos et accusamus et iustosds odio?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="text__wrapp">
+          <p class="faq__text">
+            Temporibus autem quibusdam et aut officiis debitis aut rerum
+            necessitatibus saepe eveniet, ut et voluptates repudiandae sint et
+            molestiae non recusandae.
+          </p>
+        </div>
+      </li>
+      <li class="faq__item">
+        <div class="item__hat">
+          <h3 class="hat__title">Was gehört in eine Facharbeit?</h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="text__wrapp">
+          <p class="faq__text">
+            Temporibus autem quibusdam et aut officiis debitis aut rerum
+            necessitatibus saepe eveniet, ut et voluptates repudiandae sint et
+            molestiae non recusandae.
+          </p>
+        </div>
+      </li>
+      <li class="faq__item">
+        <div class="item__hat">
+          <h3 class="hat__title">
+            Wie lange braucht man, um eine Facharbeit zu schreiben?
+          </h3>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="text__wrapp">
+          <p class="faq__text">
+            Diese Frage kann nicht pauschal beantwortet werden, da sich sowohl
+            Deine Motivation als auch Deine Erfahrung bzw. Dein Wissen bezüglich
+            der Facharbeit auf den Arbeitsprozess auswirken. Derweil arbeiten
+            unsere Autoren höchst effizient und liefern Deine wissenschaftliche
+            Arbeit in möglichst kurzer Zeit.
+          </p>
+        </div>
+      </li>
+    </ul>
+    <button class="faq__button">Try for free</button>
+  </div>
+</section>
+
+    </main>
+    <!-- footer -->
+    <footer class="footer__section">
+  <div class="container">
+    <div class="footer__wrapper">
+      <div class="navigation__wrapper">
+        <nav>
+          <ul class="menu__list-footer">
+            <li class="menu__item-footer"><a href="">About</a></li>
+            <li class="menu__item-footer"><a href="">Product</a></li>
+            <li class="menu__item-footer"><a href="">FAQ</a></li>
+            <li class="menu__item-footer"><a href="">Contact</a></li>
+          </ul>
+        </nav>
+        <ul class="links__list">
+          <li class="links__item"><a href="">Blog</a></li>
+          <li class="links__item"><a href="">How it works</a></li>
+          <li class="links__item"><a href="">Clients</a></li>
+          <li class="links__item"><a href="">Reviews</a></li>
+        </ul>
+      </div>
+
+      <div class="informarion__wrapper">
+        <div>
+          <div class="call">
+            <a href="tel:+">+49(621) 53399112</a>
+            <p>Call us!</p>
+          </div>
+          <div>
+            <div class="rating rating_set">
+              <div class="rating__body">
+                <div class="rating__active"></div>
+                <div class="rating__items">
+                  <input
+                    type="radio"
+                    class="rating__item"
+                    value="1"
+                    name="rating"
+                  />
+                  <input
+                    type="radio"
+                    class="rating__item"
+                    value="2"
+                    name="rating"
+                  />
+                  <input
+                    type="radio"
+                    class="rating__item"
+                    value="3"
+                    name="rating"
+                  />
+                  <input
+                    type="radio"
+                    class="rating__item"
+                    value="4"
+                    name="rating"
+                  />
+                  <input
+                    type="radio"
+                    class="rating__item"
+                    value="5"
+                    name="rating"
+                  />
+                </div>
+              </div>
+              <div class="rating__value">2.5</div>
+              <div class="colective__value">/5</div>
+            </div>
+          </div>
+        </div>
+
+        <select class="dropbox__list" name="" id="">
+          <option value="">Info</option>
+          <option value="value1">Geld-Zutuck_Garantie</option>
+          <option value="value2">Datenschutzerklatung</option>
+          <option value="value3">Revisionen</option>
+          <option value="value4">Rabattpolitik</option>
+        </select>
+      </div>
+
+      <div class="links">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="fa-brands fa-facebook-square" href=""></a>
+          </li>
+          <li class="social__item">
+            <a class="fa-brands fa-instagram-square" href=""></a>
+          </li>
+          <li class="social__item">
+            <a href="" class="fa-brands fa-youtube-square"></a>
+          </li>
+          <li class="social__item">
+            <a href="" class="fa-brands fa-pinterest-square"></a>
+          </li>
+        </ul>
+        <ul class="plays__list">
+          <li class="plays__item">
+            <a href=""><i class="fa-brands fa-cc-visa"></i></a>
+          </li>
+          <li class="plays__item">
+            <a href=""><i class="fa-brands fa-cc-mastercard"></i></a>
+          </li>
+        </ul>
+        <div class="security">
+          <a href=""><img src="img/security.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container"><p class="copyright">© Copyright 2016-2020</p></div>
+</footer>
+
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
