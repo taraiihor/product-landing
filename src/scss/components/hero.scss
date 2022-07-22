@@ -15,7 +15,7 @@
 .hero__block {
   margin-bottom: 40px;
   @media screen and (min-width: 1200px) {
-    width: 50%;
+    width: 60%;
   }
 }
 .hero__title {
@@ -65,4 +65,9 @@
 .hero__block {
 }
 .img__block {
+  @media screen and (max-width: 768px) {
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

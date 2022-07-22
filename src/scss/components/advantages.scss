@@ -1,0 +1,64 @@
+.products__content {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+  }
+}
+.products__img {
+  margin-bottom: 20px;
+  @media screen and (min-width: 1200px) {
+    max-width: 50%;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+}
+.products__wrapp {
+  margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    max-width: 50%;
+    margin-bottom: 0;
+  }
+}
+.products__title {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #111563;
+
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+.products__list {
+  list-style: disc;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.products__item {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+
+  /* Text / paragraph */
+
+  color: #63718e;
+  margin-left: 20px;
+
+  &::marker {
+    color: #111563;
+  }
+}
+.products__text {
+}

@@ -1,5 +1,5 @@
 //smooth scroll по меню
-const hederSectiot = document.querySelector('.header');
+const hederSectiot = document.querySelector('.header__section');
 const anchors = document.querySelectorAll('header a[href*="#"]');
 
 const buttonBurger = document.querySelector('.menu__burger');
@@ -20,7 +20,8 @@ anchors.forEach(link => {
     event.preventDefault();
     let href = this.getAttribute('href').substring(1);
     const scrollTarget = document.getElementById(href);
-    const topOffset = document.querySelector('.header').offsetHeight;
+    const topOffset = document.querySelector('.header__section').offsetHeight;
+    console.log(topOffset);
     const elementPosition = scrollTarget.getBoundingClientRect().top;
     const offsetPosition = elementPosition - topOffset;
 
@@ -59,3 +60,13 @@ function addBackgroundColor(value) {
 const screenSize = window.matchMedia('(max-width: 767px)');
 addStyleMenu(screenSize);
 screenSize.addListener(addStyleMenu);
+
+//Відкриття закриття спойлера
+const acordions = document.querySelectorAll('.faq__item');
+
+for (let i = 0; i < acordions.length; i++) {
+  const element = acordions[i];
+  element.addEventListener('click', function () {
+    this.classList.toggle('open__spoiler');
+  });
+}

@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="css/style.min.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    /> -->
     <title>Product</title>
   </head>
   <body>
@@ -19,10 +23,14 @@
       <!-- Promo section -->
       @@include('html/promo.html')
       <!-- Product section -->
+      @@include('html/calculator.html')
 
-      @@include('html/product.html')
       <!-- Reviews -->
       @@include('html/reviews.html')
+
+      <!-- context -->
+      @@include('html/product.html') @@include('html/advantages.html')
+      @@include('html/responsibilities.html')
 
       <!-- Faq section -->
       @@include('html/faq.html')

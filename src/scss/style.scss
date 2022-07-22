@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import './utils/normalize';
 @import './utils/variables';
 @import './components/header';
 @import './components/hero';
 @import './components/footer';
 @import './components/promo.scss';
+@import './components/calculator.scss';
 @import './components/product.scss';
+@import './components/advantages.scss';
+@import './components/responsibilities.scss';
 @import './components/reviews.scss';
 @import './components/faq.scss';
 
@@ -14,13 +18,14 @@
 @import './fontawesome/brands.scss';
 @import 'fonts.scss';
 
+@import '../../node_modules/swiper/swiper-bundle';
 .container {
   max-width: 320px;
   padding: 0 10px;
   margin: 0 auto;
 
   @media screen and (min-width: 768px) {
-    max-width: 768px;
+    min-width: 768px;
     padding: 0 40px;
   }
   @media screen and (min-width: 1200px) {
@@ -40,4 +45,12 @@ body {
 
 body.lock {
   overflow: hidden;
+}
+
+.swiper-pagination {
+  position: static;
+  margin-top: 10px;
+}
+.swiper {
+  padding: 10px;
 }

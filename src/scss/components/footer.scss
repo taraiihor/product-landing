@@ -104,9 +104,6 @@
 .rating__body::before {
   content: '★★★★★';
   display: block;
-  //   color: transparent;
-  //   background-color: #c774ee;
-  padding: 3px;
 }
 .rating__active {
   position: absolute;
@@ -123,9 +120,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  color: yellow;
-
-  padding: 3px;
+  color: #c774ee;
 }
 .rating__items {
   display: flex;

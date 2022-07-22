@@ -1,0 +1,113 @@
+.calc__section {
+  padding: 25px 0 40px 0;
+}
+.calc__title {
+  text-align: center;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 23px;
+  /* identical to box height */
+
+  /* Text / Title */
+
+  color: #111563;
+
+  margin-bottom: 10px;
+}
+.calc__text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+
+  /* Text / paragraph */
+
+  color: #63718e;
+
+  margin-bottom: 20px;
+}
+.calc__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  @media screen and (min-width: 768px) {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.calc__form > * {
+  @media screen and (min-width: 768px) {
+    flex: 1 1 300px;
+  }
+}
+.calc__select {
+  position: relative;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  /* Text / Title */
+
+  color: #111563;
+
+  padding: 20px 15px;
+  background: #f9fafc;
+  box-shadow: 0px 1px 3px rgba(5, 41, 83, 0.14);
+  border-radius: 10px;
+  border: 0;
+}
+.calc__value {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* primary / accent */
+
+  color: #c774ee;
+}
+.calc__btn {
+  padding: 15px 0;
+  max-width: 350px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+
+  text-align: center;
+
+  color: #ffffff;
+
+  background: #c774ee;
+  /* primary */
+
+  box-shadow: 0px 2px 16px rgba(32, 108, 164, 0.16);
+  border-radius: 10px;
+  border: 0;
+}
+
+// select .calc__select {
+
+//   display: inline-block;
+// }
+
+select {
+  appearance: none;
+}
